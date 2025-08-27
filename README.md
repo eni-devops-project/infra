@@ -26,7 +26,3 @@ Colonne "SubscriptionId" avec :
 - az aks get-credentials -g "rg-BDardelet2024_cours-projet" -n "k8s-benoit" --overwrite-existing
 kubectl config get-contexts
 kubectl auth can-i get pods -A
-
-##  Notes
-
-Ingress Nginx and Cert chart are already installed to facilitate the use of the cluster
